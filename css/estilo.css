@@ -1,0 +1,277 @@
+@charset "UTF-8" ;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700;1,900&display=swap');
+
+* {
+    background-color: #0F0F0F;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+header {
+    position: sticky;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.menu {
+    padding-left: 12px;
+}
+
+.logo-yt {
+    height: 45px; 
+    padding-left: 20px;  
+    padding-bottom: 5px;
+}
+
+.pesquisar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px 0 200px;
+    padding-top: 10px;
+    left: 150px;
+}
+
+.pesquisar-input {
+    height: 38px;
+    width: 65%;
+    font-size: inherit;
+    top: 15px;
+
+    border: 1px  solid #5f5f5f;
+    border-top-left-radius: 70px;  
+    border-bottom-left-radius: 70px;
+}
+
+.pesquisa-bt {  
+
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+   
+    background-color: #5f5f5f;
+    height: 40px;
+    width: 60px;
+    border: 1px solid #5f5f5f;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    cursor: pointer;
+}
+
+button img {  
+    width: 17px;
+    border: 1px solid #5f5f5f;
+    background-color: #5f5f5f;
+}
+
+.mic {
+    height: 20px;
+    width: 18px;
+    background-color: #5f5f5f2d;
+    border: 10px solid #5f5f5f00;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.mic:hover {
+    background-color: #5f5f5f;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    align-items: center;
+    gap: 20px;    
+}
+.perfil {
+    height: 35px;
+    width: 35px;
+
+    left: 1280px;
+    top: 20px;  
+    border-radius: 50px;
+}
+
+.camera {
+    height: 30px;
+    width: 30px;
+    left: 1235px;
+    top: 25px;
+    border: 10px solid transparent;
+}
+
+.camera:hover {
+    background-color: #5f5f5f;
+    border-radius: 50px;
+}
+
+.sino {
+    height: 22px;
+    width: 20px;
+    left: 1235px;
+    top: 25px;
+    border: 10px solid transparent;
+}
+
+.sino:hover {
+    background-color: #5f5f5f;
+    border-radius: 50px;
+}
+
+.perfil {
+    height: 35px;
+    width: 35px;
+
+    left: 1280px;
+    top: 20px;  
+    border-radius: 50px;
+}
+
+.categorias {
+    width: 215px;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-categorias {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 24px;
+
+    border: 10px solid transparent;
+    margin: 10px 0px 0px 14px;
+    padding-left: 8px;
+    height: 40px;
+}
+
+.botao-categorias:hover {
+    background-color: #444444;
+    border: 10px solid #444444;
+    border-radius: 8px;
+}
+
+.inicio-img {
+    background-color: transparent;
+    border: 0px;
+    
+    transform: scale(1.3);
+}
+
+#home-borda {
+    background-color: #2b2b2b;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+#home-borda:hover {
+    background-color: #444444;
+    border-radius: 8px;
+}
+
+#categorias2 {
+    border-top: 1px solid #5f5f5f;
+}
+
+#explorar {
+    color: white;
+    margin: 16px 0px 0px 30px;
+}
+
+.conteiner {
+    overflow: auto;
+}
+
+aside { 
+    float: left;
+    width: 200px;
+}
+
+
+.videos {
+    padding: 45px 0px 0px 30px;
+
+    display: grid;
+    grid-template-columns: repeat(6, 170px);
+    grid-template-rows: 280px 400px 280px;
+    grid-template-areas: "video1 video1 video2 video2 video3 video3" "short1 short2 shor3 short4 short5 short6" "video4 video4  video5 video5 video6 video6";
+    grid-row-gap: 10px;
+    column-gap: 15px;
+
+    float: left;
+    width: 200px;
+}
+
+.img-video {
+    height: 192px;
+    width: 345px;
+
+    border-radius: 15px;
+}
+
+.img-short {
+    height: 280px;
+}
+
+.short {
+
+}
+
+abbr {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+a abbr {
+    text-decoration: none;
+}
+
+.titulo {
+    color: white;   
+}
+
+.sub-titulo {
+    color: #5f5f5f;
+}
+
+.video1 {
+    grid-area: video1;
+}
+
+.video2 {
+    grid-area: video2;
+}
+
+.video3 {
+    grid-area: video3;
+}
+
+.video4 {
+    grid-area: video4;
+}
+
+.video5 {
+    grid-area: video5;
+}
+
+.video6 {
+    grid-area: video6;
+}
+
+
+
+
+
