@@ -206,7 +206,7 @@ aside {
     grid-template-columns: repeat(6, 170px);
     grid-template-rows: 280px 400px 280px;
     grid-template-areas: "video1 video1 video2 video2 video3 video3" "short1 short2 shor3 short4 short5 short6" "video4 video4  video5 video5 video6 video6";
-    grid-row-gap: 10px;
+    grid-row-gap: 50px;
     column-gap: 15px;
 
     float: left;
